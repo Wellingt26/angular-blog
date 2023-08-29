@@ -1,0 +1,35 @@
+.container__menu-bar {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.menu-bar-icon {
+  height: 100%;
+}
+
+.menu-bar-icon > img {
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.menu-bar-list > ul {
+  display: flex;
+}
+
+.menu-bar-list > ul > li {
+  margin: 20px;
+  list-style: none;
+}
+
+.menu-bar-list > ul > li > a {
+  color: #c1c1c1;
+}
+
+.menu-bar-list > ul > li > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

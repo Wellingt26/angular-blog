@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Segoe UI";
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border-color: #1c1c1c;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
