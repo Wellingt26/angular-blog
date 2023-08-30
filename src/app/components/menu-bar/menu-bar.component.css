@@ -3,6 +3,7 @@
   width: 100%;
   height: 3rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -11,7 +12,7 @@
   height: 100%;
 }
 
-.menu-bar-icon > img {
+.menu-bar-icon > a > img {
   height: 100%;
   margin-left: 1rem;
 }

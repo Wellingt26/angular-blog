@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+  .container__big-card {
+    width: 100%;
+    align-items: center;
+  }
+
+  .big-card__description > p {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1015px) {
+  .container__big-card {
+    width: 80%;
+    margin-left: 0;
+    margin: auto;
+    align-items: center;
+  }
+
+  .big-card__description > p {
+    font-size: 25px;
+    text-align: justify;
+  }
+}

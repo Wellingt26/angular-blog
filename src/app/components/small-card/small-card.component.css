@@ -1,7 +1,6 @@
 .container__small-card {
   display: flex;
-  width: 100%;
-  flex-direction: space-between;
+  max-width: 90%;
 }
 
 .small-card-photo {
@@ -16,7 +15,7 @@
 
 .small-card-right {
   width: 28rem;
-  height: 90%;
+  height: 100%;
   margin-left: 1rem;
 }
 
