@@ -7,7 +7,7 @@
   <div class="small-card-right">
     <span>{{cardDate}}</span>
     <div class="small-card-description">
-      <p>{{cardDescription}}</p>
+      <p><a [routerLink]="['content', id]">{{cardDescription}}</a></p>
     </div>
   </div>
 </div>

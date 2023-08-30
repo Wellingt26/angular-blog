@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class BigCardComponent {
   @Input()
+  id: string = '0';
+  @Input()
   cardPhoto: string =
     'https://www.chocolatebayou.org/wp-content/uploads/No-Image-Person-2048x2048.jpeg';
 
